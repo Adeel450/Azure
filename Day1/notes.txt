@@ -1,0 +1,36 @@
+What is Data Center?
+
+Data center is the collection of the Servers
+
+These company will use private cloud:
+Banking nad financial due to the security Issue
+
+Hybrid Cloud:
+SO if any company have 100 servers and it deploy the application on 100 servers due to some security issue it will make the data center in on premises and save the data servers on premises
+
+Hypervisor:
+
+It is the software which is install on the server it is logically break these servers and it is called virtual machine and virutalization
+
+API:
+
+IT is Apllication Interface , It means like you wanna 100 machine on AWS so you write  the Pyhton script and shell scipt and  you using the API in your script , So it is called API
+
+Avability zone:
+
+So The data centers of azure are present in us-east and some are in us-west , SO company deploy the application in the us-east and also in us-west
+
+Load Balancer:
+
+IT Distribute the load
+Let us-east has 3 data centers the company deploy the apllication in one data center and replica mean copy of the appilcation in another data center also in same the us-wast, IT distrube the load so if in one data center the application is go down so it request to the other data center where copy og application is present
+
+Elasticity :
+Automatically scaling the infrastructure
+
+High Avaibility:
+Like Facebook and Instagram is rarely (like some time) go down
+
+Disaster Recovery:
+
+You make a Plan that if any wrong thing , Like if you Data Base data is loss , that you make a Plan that you have a copy of the Database

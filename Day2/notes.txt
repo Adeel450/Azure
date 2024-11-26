@@ -1,0 +1,28 @@
+Iaas:
+Iinfrastructure as a Service
+
+Paas:
+
+Platform as a Service
+
+SaaS:
+
+Software as a Service
+
+What is Iaas and Paas?
+
+Like if you want vm from azure cloud and also storage and network, so it is Iass , so when you configure the mysql databse on the vm so it is Pass, and if you use like outlook so it is Saas
+
+Azure Resource manager:
+
+Azure Recource manager create the services for you . like if you want to make vm on azure so resource manager give you that service
+
+Resource group:
+
+Grouping of resources like vm, DB, storage
+IT is used like you make the VM on Azure so it store the all things of vm like storage,privtae-key,netowrk
+
+Interview Question:
+
+Q: How you manage the azure resources
+Ans: We are using resource groups for project where we create one resource group fro paytmnet-dev  and other for payment-QA and payment-production using this resource group we manage Acess , montioring and locking
