@@ -1,0 +1,39 @@
+Virtual Network(VNET):
+
+For example if nike compnay make a virtual machine in data center us-east1 and other puma compnay make virtual machine at the same place so when we make the virtual networks it will block the others mean the other company will not make the virtual in this virtual networks
+
+How do you define the size of Vnet:
+
+Like you created the Vnet with the CIDR /16 mean with 65536 IP,
+ 
+So make the multiple subnet in the one VNET, Like you have WEb servers,apllication servers and DB Servers so We make the subnets  like for DB servers we make Prviate subnet where we define the security group which is required
+
+During the creation of Subent you mention CIDR
+
+Network Security Group:
+ It defines the security particulary for subnet and also for Instance, IT defines the securtiy also for multiple subnet
+
+ASG:
+
+IF in one subnet there are 5 web application and 5 other aplication, and other subnet there are DB servers , SO if we want that the other aplications will only talk with the database server so we use ASG, MOSTLY WE use NSG + ASG
+
+
+
+The Vnet have firewall and the subnet have NSG(Network Security group) and there is routetable and in the routetable thers  is systemroute and also we make the App gateway the App gateway is loadbalacner  and the loadbalancer  
+
+There are two balancer in Azure:
+1: App gateway is l7
+2; loadbalancer is l4
+
+VNET peering:
+
+When there are two virutal networks like one vnet is nike sale and other vnet project is nike billing , So Vnet is Isolate so if we talk the both vnet so we modify the route tables is knows as VNET peering
+
+VNET Gateway:
+
+Combining the both VNET is and give the acesss so it is known as VET GAteway
+
+VPN Gateway:
+
+So if you have hybrid cloud mean some servers like DB servers is on premises and application servers are on the Azure cloud so we use VPN Gateway to communicate these servers which some are present on premises and other is on the Azure Coud
+
